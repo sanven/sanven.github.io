@@ -1,11 +1,54 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DX Test page</title>
-</head>
-<body>
 
+<head>
+<style>
+h2 {
+	text-align: center;
+	border: 1px solid white;
+	background: #555555;
+	color: #EEEEEE;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+/*This is a pseudo-selector for when a link is hovered over with the mouse.*/
+a:hover {
+	color: green;
+}
+
+/*This applies to the section of the page that has an id of "RoundedContainer".*/
+#RoundedContainer {
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	padding: 20px;
+	margin-left: auto;
+    margin-right: auto;
+	border: 2px solid black;
+	
+	/*This is CSS3 to round the borders and make a drop shadow. It may not display in all browsers.*/
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888;
+}
+
+#SurveyPlatform {
+	text-align: center;
+	padding: 200px;
+}
+</style>
+<title>Les &Eacute;v&eacute;nements Fran&ccedil;ais</title>
+<h2>Soyez les bienvenues.</h2>
+</head>
+
+<body>
+<div id="SurveyPlatform">
+This is a div that will be replaced by automated tests.
+</div>
+<div id="RoundedContainer">
+<a href="https://testgate1-app.eng.qops.net:5005/static/si/Webpage1.html" id="Link">Click here to go to page 1.</a>
+</div>
 <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
 <script type='text/javascript'>
 (function(){var g=function(e,h,f,g){
@@ -17,8 +60,6 @@ this.start=function(){var t=this;"complete"!==document.readyState?window.addEven
 try{(new g(100,"r","QSI_S_ZN_cSfKFcUF0Mk6ccZ","https://zncsfkfcuf0mk6ccz-az1dx.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_cSfKFcUF0Mk6ccZ")).start()}catch(i){}})();
 </script><div id='ZN_cSfKFcUF0Mk6ccZ'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
 <!--END WEBSITE FEEDBACK SNIPPET-->
- 
-<h1>DX Test Page</h1>
 
 </body>
 </html>
